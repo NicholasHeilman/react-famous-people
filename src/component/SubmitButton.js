@@ -7,16 +7,16 @@ class SubmitButton extends Component {
         
         return (
           <button className="submitBtn" 
-                  onClick={() => handleClick()}>
+                  onClick={() => console.log('click')}>  {/*handleClick()}>*/}
             Submit 
           </button>
         )
     }
 }
 
-handleClick() {
-    console.log('click');
-}
+// handleClick() {
+//     console.log('click');
+// }
 
 
 export default SubmitButton;
